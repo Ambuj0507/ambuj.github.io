@@ -1,5 +1,41 @@
 # ambuj.github.io
 <HTML>
+  <STYLE>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+
+.cell {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .table, .row, .cell {
+    display: block;
+    width: 100%;
+  }
+}
+
+  </STYLE>
   <div class="table">
     <div class="row header">
       <div class="cell">Header 1</div>
